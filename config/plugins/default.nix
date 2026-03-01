@@ -8,6 +8,7 @@
     ./colorizer.nix
     ./comment.nix
     ./conform.nix
+    ./copilot.nix
     ./fidget.nix
     ./fugitive.nix
     ./gitsigns.nix
