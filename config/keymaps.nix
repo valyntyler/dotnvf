@@ -1,6 +1,20 @@
 {
   config.vim.keymaps = [
     {
+      desc = "Move line up";
+      key = "<A-k>";
+      mode = "n";
+      silent = true;
+      action = ":m-2<CR>==";
+    }
+    {
+      desc = "Move line down";
+      key = "<A-j>";
+      mode = "n";
+      silent = true;
+      action = ":m+<CR>==";
+    }
+    {
       key = "-";
       mode = "n";
       silent = true;
