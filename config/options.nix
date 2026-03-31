@@ -4,6 +4,10 @@
       scrolloff = 999;
       showmode = false;
 
+      foldenable = false;
+      foldtext = "";
+      fillchars = "fold: ";
+
       shiftwidth = 2;
       tabstop = 2;
       expandtab = true;
