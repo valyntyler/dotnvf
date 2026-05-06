@@ -14,6 +14,7 @@
       pkgs = import nixpkgs {
         inherit system;
         overlays = [(import ./overlay/scrolleof.nix)];
+        config.allowUnfree = true;
       };
     in {
       packages.default =
