@@ -20,7 +20,7 @@
     nu.enable = true;
     php.enable = true;
     python.enable = true;
-    ts.enable = true;
+    typescript.enable = true;
     yaml.enable = true;
 
     html = {
