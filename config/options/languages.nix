@@ -22,6 +22,7 @@
     python.enable = true;
     typescript.enable = true;
     yaml.enable = true;
+    vue.enable = true;
 
     html = {
       enable = true;
