@@ -20,10 +20,11 @@
     nu.enable = true;
     php.enable = true;
     python.enable = true;
+    sql.enable = true;
     typescript.enable = true;
-    yaml.enable = true;
     vue.enable = true;
     wgsl.enable = true;
+    yaml.enable = true;
 
     html = {
       enable = true;
@@ -32,11 +33,6 @@
     rust = {
       enable = true;
       extensions.crates-nvim.enable = false;
-    };
-    sql = {
-      enable = false;
-      format.enable = false;
-      extraDiagnostics.enable = false;
     };
   };
 }
