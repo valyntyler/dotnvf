@@ -23,6 +23,7 @@
     typescript.enable = true;
     yaml.enable = true;
     vue.enable = true;
+    wgsl.enable = true;
 
     html = {
       enable = true;
