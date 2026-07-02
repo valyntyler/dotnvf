@@ -22,7 +22,6 @@
     python.enable = true;
     sql.enable = true;
     typescript.enable = true;
-    vue.enable = true;
     wgsl.enable = true;
     yaml.enable = true;
 
@@ -33,6 +32,20 @@
     rust = {
       enable = true;
       extensions.crates-nvim.enable = false;
+    };
+    vue = {
+      enable = true;
+      lsp.servers = [
+        "emmet-ls"
+        "typescript-language-server"
+        "vtsls"
+        "vue-language-server"
+      ];
+      format.type = [
+        "biome"
+        "biome-check"
+        "biome-organize-imports"
+      ];
     };
   };
 }
