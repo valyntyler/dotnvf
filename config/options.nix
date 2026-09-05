@@ -11,7 +11,7 @@
       shiftwidth = 2;
       tabstop = 2;
       expandtab = true;
-      wrap = false;
+      wrap = true;
 
       winbar = " ";
     };
