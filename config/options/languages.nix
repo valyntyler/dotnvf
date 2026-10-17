@@ -19,11 +19,17 @@
     nix.enable = true;
     nu.enable = true;
     php.enable = true;
-    python.enable = true;
     sql.enable = true;
     typescript.enable = true;
     wgsl.enable = true;
     yaml.enable = true;
+
+    python = {
+      enable = true;
+      lsp.servers = [
+        "python-lsp-server"
+      ];
+    };
 
     html = {
       enable = true;
